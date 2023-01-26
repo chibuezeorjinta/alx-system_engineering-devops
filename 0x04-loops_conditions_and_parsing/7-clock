@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# print a long clock
+
+hour=0
+min=1
+while [ $hour -lt 13 ]
+do
+	echo "Hour: $hour"
+	while [ $min -lt 60 ]
+	do
+		echo $min
+		(( min++ ))
+	done
+	(( hour++ ))
+	(( min=1 ))
+done
