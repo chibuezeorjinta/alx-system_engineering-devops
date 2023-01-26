@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# learning to use the cut command
+
+for i in *
+do
+	echo "$i" | cut -d'-' -f2
+done
