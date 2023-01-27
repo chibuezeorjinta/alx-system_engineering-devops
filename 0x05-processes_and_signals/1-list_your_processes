@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# get pid in bsh format
+
+ps axu
