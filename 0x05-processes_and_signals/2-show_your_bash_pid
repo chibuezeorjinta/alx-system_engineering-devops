@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# recreate the pgrep command, but for bash 
+
+ps faxu | grep bash
