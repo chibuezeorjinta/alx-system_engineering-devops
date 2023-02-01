@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Print the listening sockets and the connected programs and its PID
+netstat -lp
