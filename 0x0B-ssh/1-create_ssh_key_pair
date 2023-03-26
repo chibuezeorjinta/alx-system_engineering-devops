@@ -2,4 +2,4 @@
 # Creates a new 4096-byte RSA key pair named school
 file=school
 phrase=betty
-ssh-keygen -f $file -b 4096 -P $phrase
+ssh-keygen -f $file -b 4096 -N $phrase
