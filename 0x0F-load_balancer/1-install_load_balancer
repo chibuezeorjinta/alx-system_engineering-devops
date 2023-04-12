@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+#install a load balancer on third server
+apt-get update
+apt-get install -y software-properties-common
+add-apt repository -y ppa:vbernat/haproxy-2.6
+apt-get install haproxy=2.6.\* -y
+
+echo "ENABLE=1" >> /etc/default/haproxy
+cp /etc/haproxy/haproxy.cfg{,.original}
+
+printf %s "frontend web-frontend
+    bind *:80
+    mode http
+    default_backend web-backend
+backend web-backend
+    balance roundrobin
+    server 151165-web-01 100.26.211.168:80 check
+    server 151165-web-02 54.173.150.105:80 check
+
+" >> /etc/haproxy/haproxy.cfg
