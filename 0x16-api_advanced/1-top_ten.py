@@ -13,8 +13,8 @@ def top_ten(subreddit):
         "limit": 10
     }
     headers = {
-        "User-Agent": "linux:0x16.api.advanced:v1.0.0" + 
-                        "(by /u/Emergency-Jaguar3819)"
+        "User-Agent": "linux:0x16.api.advanced:v1.0.0" +
+        "(by /u/Emergency-Jaguar3819)"
     }
     response = requests.get(url, headers=headers, params=params,
                             allow_redirects=False)
