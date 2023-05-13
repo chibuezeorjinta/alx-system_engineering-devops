@@ -2,8 +2,8 @@
 
   <img src="./pQ9YzVY.gif" width="100%">
 
-  ### **ISSUE SUMMARY:**  😪 
-    On June 1, 2023, the SSL certificate for our website expired, resulting in an outage that lasted for two hours from 2:00 PM to 4:00 PM Eastern Standard Time. During this time, users attempting to access our website were greeted with a security warning and were unable to connect securely to our site. Approximately 80% of users attempting to access the site during this time were affected.
+  ### **ISSUE SUMMARY:** 😪  
+  On June 1, 2023, the SSL certificate for our website expired, resulting in an outage that lasted for two hours from 2:00 PM to 4:00 PM Eastern Standard Time. During this time, users attempting to access our website were greeted with a security warning and were unable to connect securely to our site. Approximately 80% of users attempting to access the site during this time were affected.
   
   ### **ROOT CAUSE:**
   <img src="./face.jpg" width="75%" height="75%">       
@@ -13,6 +13,7 @@
 
   ### **TIMELINE:** 🧐 
   <img src="./ah-shit-here-we-go-again.gif"  width="100%" height="30%">
+  
 - 2:00 PM EST - The issue was first detected when several users complained about being unable to connect to our site over HTTPS.
 - 2:10 PM EST - The incident was escalated to our operations team, who began investigating the issue.
 - 2:20 PM EST - The team identified that the SSL certificate had expired, resulting in the outage.
