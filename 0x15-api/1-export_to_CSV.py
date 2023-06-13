@@ -28,10 +28,10 @@ if __name__ == "__main__":
 		TOTAL_NUMBER_OF_TASKS += 1
 		if entry["completed"] is True:
 			NUMBER_OF_DONE_TASKS += 1
-	print("Employee {} is done with tasks".format(EMPLOYEE_NAME) +
-		"({}/{}):".format(NUMBER_OF_DONE_TASKS, TOTAL_NUMBER_OF_TASKS))
-	for entry in TODO:
-		print("\t " + entry.get("title"))
+	#print("Employee {} is done with tasks".format(EMPLOYEE_NAME) +
+	#	"({}/{}):".format(NUMBER_OF_DONE_TASKS, TOTAL_NUMBER_OF_TASKS))
+	#for entry in TODO:
+	#	print("\t " + entry.get("title"))
 	
 	filename = str(employeeID) + '.csv'
 	with open(filename, mode='w') as f:
